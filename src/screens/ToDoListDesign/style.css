@@ -1,0 +1,226 @@
+.to-do-list-design {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.to-do-list-design .to-do-list-container-wrapper {
+  height: 705px;
+  width: 505px;
+}
+
+.to-do-list-design .to-do-list-container {
+  background-color: #1d1e25;
+  height: 705px;
+  position: relative;
+}
+
+.to-do-list-design .text-wrapper-2 {
+  color: #7c7c93;
+  font-family: "Inter-Medium", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  left: 69px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 600px;
+  width: 343px;
+}
+
+.to-do-list-design .divider {
+  background-color: #434343;
+  height: 1px;
+  left: 64px;
+  position: absolute;
+  top: 589px;
+  width: 377px;
+}
+
+.to-do-list-design .to-do-pending {
+  height: 24px;
+  left: 64px;
+  position: absolute;
+  top: 526px;
+  width: 377px;
+}
+
+.to-do-list-design .image {
+  height: 24px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 24px;
+}
+
+.to-do-list-design .text-wrapper-3 {
+  color: #dadada;
+  font-family: "Inter-Medium", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  left: 34px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: -1px;
+  width: 343px;
+}
+
+.to-do-list-design .to-do-pending-2 {
+  height: 24px;
+  left: 64px;
+  position: absolute;
+  top: 477px;
+  width: 377px;
+}
+
+.to-do-list-design .to-do-pending-3 {
+  height: 24px;
+  left: 64px;
+  position: absolute;
+  top: 428px;
+  width: 377px;
+}
+
+.to-do-list-design .to-do-pending-4 {
+  height: 24px;
+  left: 64px;
+  position: absolute;
+  top: 379px;
+  width: 377px;
+}
+
+.to-do-list-design .text-wrapper-4 {
+  color: #dadada;
+  font-family: "Inter-Medium", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  left: 34px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: -1px;
+  width: 358px;
+}
+
+.to-do-list-design .to-do-complete {
+  height: 24px;
+  left: 64px;
+  position: absolute;
+  top: 330px;
+  width: 377px;
+}
+
+.to-do-list-design .to-do-complete-2 {
+  height: 24px;
+  left: 64px;
+  position: absolute;
+  top: 281px;
+  width: 377px;
+}
+
+.to-do-list-design .to-do-complete-3 {
+  height: 24px;
+  left: 64px;
+  position: absolute;
+  top: 232px;
+  width: 377px;
+}
+
+.to-do-list-design .text-wrapper-5 {
+  color: #7c7c93;
+  font-family: "Inter-Medium", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  left: 34px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: -1px;
+  width: 343px;
+}
+
+.to-do-list-design .divider-2 {
+  background-color: #434343;
+  height: 1px;
+  left: 64px;
+  position: absolute;
+  top: 199px;
+  width: 377px;
+}
+
+.to-do-list-design .header {
+  background-color: transparent;
+  height: 103px;
+  left: 64px;
+  position: absolute;
+  top: 64px;
+  width: 377px;
+}
+
+.to-do-list-design .title-notes {
+  height: 103px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 305px;
+}
+
+.to-do-list-design .text-wrapper-6 {
+  color: #ffffff;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-size: 56px;
+  font-weight: 800;
+  height: 68px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: -1px;
+  width: 305px;
+}
+
+.to-do-list-design .text-wrapper-7 {
+  color: #9393b7;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  height: 19px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 83px;
+  width: 305px;
+}
+
+.to-do-list-design .emoji {
+  background-color: #24242c;
+  border: 1px solid;
+  border-color: #28282e;
+  border-radius: 6px;
+  height: 56px;
+  left: 321px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 56px;
+}
+
+.to-do-list-design .text-wrapper-8 {
+  color: #000000;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-size: 24px;
+  font-weight: 800;
+  height: 24px;
+  left: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 15px;
+  white-space: nowrap;
+}
