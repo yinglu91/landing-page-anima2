@@ -5,7 +5,7 @@ export const LandingPage = (): JSX.Element => {
   return (
     <div className='landing-page'>
       <div className='div'>
-        <p className='text-wrapper'>Find the stuff you'll love.</p>
+        <p className='text-wrapper'>Find the stuff you will love.</p>
         <p className='p'>
           Aliquam rhoncus pretium dolor volutpat lectus odio non tellus neque.
           Aliquet et purus nibh bibendum integer etiam in enim nisi.
