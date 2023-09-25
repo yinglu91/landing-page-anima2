@@ -1,10 +1,17 @@
-import React from 'react';
-import './style.css';
-import Navbar from '../../components/common/Navbar';
+import React, { useState } from 'react'
+import './style.css'
+import Navbar from '../../components/common/Navbar'
 
 export const ToDoListDesign = (): JSX.Element => {
+  const [isChecked, setIsChecked] = useState(true)
+
+  const checkHandler = () => {
+    setIsChecked((prevIsChecked) => !prevIsChecked)
+  }
+
   return (
     <>
+      <p>The checkbox is {isChecked ? 'checked' : 'unchecked'}</p>
       <Navbar />
       <div className='to-do-list-design'>
         <div className='to-do-list-container-wrapper'>
@@ -64,12 +71,25 @@ export const ToDoListDesign = (): JSX.Element => {
               />
             </div>
             <div className='to-do-complete-3'>
-              <img
+              {/* <img
                 className='image'
                 alt='Image'
                 src='/img/image-1.png'
+              /> */}
+
+              <input
+                type='checkbox'
+                id='todos_1'
+                name='todos'
+                value='Finish designs'
+                className='custom-input'
+                checked={isChecked}
+                onChange={checkHandler}
               />
-              <div className='text-wrapper-5'>Finish designs</div>
+
+              <label htmlFor='todos_1'>
+                <div className='text-wrapper-5'>Finish designs</div>
+              </label>
             </div>
             <div className='divider-2' />
             <header className='header'>
@@ -85,5 +105,5 @@ export const ToDoListDesign = (): JSX.Element => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}

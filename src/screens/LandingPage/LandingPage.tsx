@@ -8,7 +8,7 @@ export const LandingPage = () => {
 
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
 
       <div className='landing-page'>
         <div className='div'>
