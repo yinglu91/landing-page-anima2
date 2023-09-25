@@ -1,14 +1,14 @@
-import React from 'react';
-import './style.css';
-import Navbar from '../../components/common/Navbar';
+import React from 'react'
+import './style.css'
+import Navbar from '../../components/common/Navbar'
 
 export const LandingPage = () => {
   const handleAppStoreClick = () =>
-    window.open('https://apple.com', '_blank', 'noreferrer');
+    window.open('https://apple.com', '_blank', 'noreferrer')
 
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
 
       <div className='landing-page'>
         <div className='div'>
@@ -78,5 +78,5 @@ export const LandingPage = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
