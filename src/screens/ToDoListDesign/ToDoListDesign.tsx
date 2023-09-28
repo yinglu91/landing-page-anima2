@@ -16,7 +16,12 @@ export const ToDoListDesign = (): JSX.Element => {
       <div className='to-do-list-design'>
         <div className='to-do-list-container-wrapper'>
           <div className='to-do-list-container'>
-            <div className='text-wrapper-2'>Add to do...</div>
+            <div className='text-wrapper-2'>
+              <input
+                type='text'
+                placeholder='Add to do 88...'
+              />
+            </div>
             <div className='divider' />
             <div className='to-do-pending'>
               <img
