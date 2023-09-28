@@ -252,9 +252,9 @@ label:before {
   z-index: 100;
 
   height: 24px;
-  left: -54px;
+  left: -35px;
   /* object-fit: cover; */
-  top: -13px;
+  top: 0;
   width: 24px;
 }
 :checked+label:before {
@@ -270,5 +270,10 @@ input[type=checkbox] {
 } */
 label {
   margin: 10px;
+}
+
+input[type=checkbox]:checked + label {
+  text-decoration: line-through;
+  opacity: 0.4;
 }
 

@@ -19,7 +19,7 @@ export const ToDoListDesign = (): JSX.Element => {
             <div className='text-wrapper-2'>
               <input
                 type='text'
-                placeholder='Add to do 88...'
+                placeholder='Add to do 888...'
               />
             </div>
             <div className='divider' />
