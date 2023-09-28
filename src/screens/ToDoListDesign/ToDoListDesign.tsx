@@ -62,35 +62,22 @@ export const ToDoListDesign = (): JSX.Element => {
                 src='/img/image-2.png'
               />
             </div>
-            <div className='to-do-complete-2'>
-              <div className='text-wrapper-3'>Make responsive on Figma</div>
-              <img
-                className='image'
-                alt='Image'
-                src='/img/image-2.png'
-              />
-            </div>
-            <div className='to-do-complete-3'>
-              {/* <img
-                className='image'
-                alt='Image'
-                src='/img/image-1.png'
-              /> */}
 
+            <div className='to-do-complete-2'>
               <input
                 type='checkbox'
-                id='todos_1'
-                name='todos'
-                value='Finish designs'
-                className='custom-input'
+                id='myCheckbox1'
                 checked={isChecked}
                 onChange={checkHandler}
               />
-
-              <label htmlFor='todos_1'>
-                <div className='text-wrapper-5'>Finish designs</div>
+              <label
+                htmlFor='myCheckbox1'
+                className='text-wrapper-3'
+              >
+                Make responsive on Figma
               </label>
             </div>
+
             <div className='divider-2' />
             <header className='header'>
               <div className='title-notes'>
