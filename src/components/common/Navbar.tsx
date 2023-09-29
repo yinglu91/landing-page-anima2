@@ -1,10 +1,14 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react'
+import { Link } from 'react-router-dom'
 
 // rafce
 const Navbar = () => {
   return (
     <ul>
+      <li>
+        <Link to='/contact'>Contact Form</Link>
+      </li>
+
       <li>
         {/* Endpoint to route to LandingPage component */}
         <Link to='/landing-page'>Landing Page</Link>
@@ -14,7 +18,7 @@ const Navbar = () => {
         <Link to='/to-do-list-design'>To Do</Link>
       </li>
     </ul>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar

@@ -3,11 +3,12 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { LandingPage } from './screens/LandingPage'
 import { ToDoListDesign } from './screens/ToDoListDesign'
 import Navbar from './components/common/Navbar'
+import Contact from './screens/Contact'
 
 const router = createBrowserRouter([
   {
     path: '/*',
-    element: <ToDoListDesign />,
+    element: <Contact />,
   },
   {
     path: '/landing-page',

@@ -224,26 +224,6 @@
   top: 15px;
   white-space: nowrap;
 }
-.custom-input {
-  all: unset;
-  height: 24px;
-  width: 24px;
-   background-color:rgb(174, 168, 168);
-    /* #1d1e25;  */
-  /*  background-image: url("/dist/img/image-2.png");*/
-  display: inline-block;
-  border-radius: 4px;
-}
-/* .custom-input-checked {
-  all: unset;
-  height: 24px;
-  width: 24px;
-   background-color:rgb(174, 168, 168);
-     #1d1e25;  
-   background-image: url("/dist/img/image-1.png");
-  display: inline-block;
-  border-radius: 4px;
-} */
 
 /* https://stackoverflow.com/questions/30663562/use-images-like-checkboxes */
 label:before {
@@ -253,7 +233,6 @@ label:before {
 
   height: 24px;
   left: -35px;
-  /* object-fit: cover; */
   top: 0;
   width: 24px;
 }
@@ -263,11 +242,7 @@ label:before {
 input[type=checkbox] {
   display: none;
 }
-/*pure cosmetics:*/
-/* img {
-  height: 24px;
-  width: 24px;
-} */
+
 label {
   margin: 10px;
 }

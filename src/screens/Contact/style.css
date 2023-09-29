@@ -1,0 +1,25 @@
+.contact-design {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+ .contact-design .custom-input { 
+    all: unset;
+    height: 24px;
+    width: 24px;
+     background-color:black;
+      /* #1d1e25;  */
+    display: inline-block;
+    border-radius: 4px;
+  } 
+
+  .contact-design .custom-input:checked {
+    height: 20px;
+    width: 20px;
+    background-color:red;
+    /* box-shadow: 0 0 0 3px hotpink; */
+  }
+
